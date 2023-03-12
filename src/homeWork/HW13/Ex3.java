@@ -1,4 +1,4 @@
-package HomeWork.HW13;
+package homeWork.HW13;
 
 public class Ex3 {
     public static void main(String[] args) {
