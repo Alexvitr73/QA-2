@@ -6,7 +6,7 @@ public class Ex3 {
 
     public static void what(int number) {
         int mirrorNunber;
-        if (number > (1 / 10)) {
+        if (number > 0) {
             mirrorNunber = number % 10;
             number = number / 10;
             System.out.print(mirrorNunber + "" + mirrorNunber + " ");

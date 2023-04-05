@@ -15,7 +15,8 @@ public class Ex4 {
         System.out.println(text);
     }
 
-    public static void reversion(String[] season) {
+    public static void reversion(String[] season)
+    {
         for (int i = 0; i < season.length; i++) {
             System.out.print(season[i] + " ");
         }
@@ -36,7 +37,7 @@ public class Ex4 {
         String[] season = new String[]{"Winter", "Spring", "Summer", "Autumn"};
         int[] reason = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-        reversion(12,"СЛАВА УКРАЇНІ !!!");
+        reversion(season);
     }
 }
 
